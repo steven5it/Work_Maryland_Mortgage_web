@@ -1,0 +1,280 @@
+/*
+	Theme Name: Client
+	Description: Maryland Mortgage Modification
+	Author: Steven Lee
+*/
+
+/* ELEMENTS ----- */
+
+img {
+	border: 0px none;
+	padding: 0px;
+	margin: 0px;
+}
+ul {
+	list-style: none;
+}
+body {
+	margin: 0px auto;
+	padding-top: 0px;
+	background: url("../cc101/App_Themes/Basic/images/bg.gif") repeat-x;
+	font-family: Arial;
+	font-size:12px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+p {
+	margin: 0px 0px 15px;
+	line-height: 18px;
+}
+
+#container {
+	border: 0px none;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	margin: 0px auto;
+	width: 950px;
+}
+
+	#header {
+		height: 121px;
+		width: 950px;
+		background-position: center top;
+		background-image: url("../cc101/App_Themes/Basic/images/header.gif");
+		display: block;
+	}
+		#header a {
+			color: rgb(0,0,0)
+			text-decoration: none;
+		}
+		#header #logo {
+			background-image: url("../cc101/App_Themes/Basic/images/logo.jpg");
+			float: left;
+			border: 0px none;
+			margin: 0px;
+			border-width: 0px;
+
+		}
+		#header #phone {
+			width: 643px;
+			float: right;
+			border: 0px none;
+			margin: 0px;
+		}
+			#header #phone img {
+				border-width: 0px;
+			}
+			#header #phone #nav {
+				width: 643px;
+				text-align: right;
+				font-size: 13px;
+				color: rgb(0,0,0);
+			}
+				#header #phone #nav p {
+					color: #000000;
+					line-height: 16px;
+					margin: 0;
+					font-weight: bold;
+				}
+				#header #phone #nav a {
+					color: rgb(0, 0, 0);
+					text-decoration: none;
+				}
+#maingraphic {
+	background-image: url("../cc101/App_Themes/Basic/images/maingraphic.jpg");
+	background-position: center top;
+	display: block;
+	position: relative;
+	height: 296px;
+	min-width: 950px;
+}
+	#testimonials {
+		border-top: 1px solid rgb(255,255,255);
+		height: 295px;
+		overflow: hidden;
+		position: absolute;
+		width: 306px;
+		z-index: 64;
+	}
+		#testimonials img {
+			position: absolute;
+			top: 0px;
+			left:0px;
+			display: block;
+			z-index: 3;
+			opacity: 1;
+			width: 306px;
+			height: 295px;
+		}
+
+#content {
+	background-image: url("../cc101/App_Themes/Basic/images/mainboxbg.gif");
+	background-color: rgb(255,255,255);
+	vertical-align: top;
+	background-position: center top;
+	background-repeat: repeat-y;
+	padding-top: 0px;
+}
+
+#right-base {
+	background-image: url("../cc101/App_Themes/Basic/images/sidebarbg.jpg");
+	/*background-color: red;*/
+	width: 251px;
+	float: right;
+	margin: 0px;
+	height: 814px;
+}
+#sidebar {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+	#sidebar #side-menu {
+		list-style: none outside none;
+		padding: 119px 0px 2px 10px;
+		color: rgb(255, 255, 255);
+		font-size: 12px;
+		font-family: Arial;
+		font-weight: bold;
+		width: 170px;
+	}
+	.form-container {
+		padding: 20px 15px 0px;
+		height: 103px;
+		width:190px;
+	}
+	.watermarked {
+		margin-bottom: 3px;
+		font-family: Arial, Helvetica;
+		font-size: 12px;
+		height:16px;
+		width: 190px;
+		padding: 1px 0px 0px 2px;
+		border: 1px solid rgb(184, 184, 184);
+		background-color: rgb(240, 248, 255);
+		color: gray;
+	}
+	.watermarked-large {
+		margin-bottom: 10px;
+		font-family: Arial, Helvetica;
+		font-size: 12px;
+		height:110px;
+		width: 190px;
+		padding: 1px 0px 1px 2px;
+		border: 1px solid rgb(184, 184, 184);
+		background-color: rgb(240, 248, 255);
+		color: gray;
+	}
+	.little-list-alt {
+		list-style: none outside none;
+		padding: 8px 0px 0px 2px;
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 175px;	
+	}
+		.little-list-alt li {
+			background: url("../cc101/App_Themes/Basic/images/listarrow2.gif") no-repeat scroll left top transparent;
+			padding: 0px 0px 5px 15px;
+			text-decoration: underline;
+
+		}
+	#sidebar #side-menu-bottom {
+		list-style: none outside none;
+		padding: 0px 0px 0px 9px;
+		font-size: 12px;
+		font-family: Arial;
+		font-weight: bold;
+		width: 180px;
+		color: rgb(255, 255, 255);
+	}
+	.little-list-alt2 {
+		list-style: none outside none;
+		padding: 5px 0px 0px 2px;
+		margin: 0px;
+		width: 175px;	
+	}
+		.little-list-alt2 li {
+			background: url("../cc101/App_Themes/Basic/images/listarrow2.gif") no-repeat scroll left top transparent;
+			padding: 0px 0px 5px 15px;
+			
+		}
+
+#content-base{
+	width: 699px;
+	float: left;
+	margin: 0px;
+}
+	ul#menu {
+		display: block;
+		width: 699 px;
+		height:57px;
+		margin: 0px;
+		padding: 0px;
+		border: 0px none;
+		background-image: url("../cc101/App_Themes/Basic/images/nav.jpg");
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+		ul#menu li {
+			list-style: none outside none;
+			height: auto;
+			margin: 0px;
+			position: relative;
+			display: block;
+			float: left;
+		}
+			ul#menu li a {
+				float: none;
+				text-decoration: none;
+				color: rgb(124,119,91);
+			}
+		#menu a.modification, #menu a.shortsale, #menu a.deedinlieu, #menu a.refinancing, #menu a.foreclosure {
+			background: url("../cc101/App_Themes/Basic/images/nav.jpg") no-repeat scroll 0% 0% transparent;
+			height: 57px;
+			text-indent: -999999px;
+		}
+		#menu a.modification {
+			background-position: left 0px;
+			width: 165px;
+		}
+	#main-content {
+		background-image: url("../cc101/App_Themes/Basic/images/mainbg.gif");
+		background-repeat: no-repeat;
+		margin: 0px;
+		padding: 15px 22px 30px;
+	}
+
+#footer-wrap {
+	margin: auto;
+	clear: both;
+	width: 950px;
+	height:128px;
+	background-repeat: repeat-x;
+	background-image: url("../cc101/App_Themes/Basic/images/footerbg.jpg");
+	background-position: center top;
+	background-color: rgb(255, 255, 255)
+}
+	#footer-wrap #footer {
+		font-size: 12px;
+		color: rgb(255, 255, 255);
+		padding: 0px 0px 5px;
+		text-align: center;
+	}
+		#footer-wrap #footer p {
+			line-height: 16px;
+		}
+		#footer-wrap #footer a {
+			color: rgb(255, 255, 255);
+		}
+a:link, a:visited, a:active {
+	color: rgb(150,3,1);
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+}
+a:hover {
+	color: rgb(0,0,0);
+	text-decoration: none;
+}
+
+.clearboth {
+	clear: both;
+}
